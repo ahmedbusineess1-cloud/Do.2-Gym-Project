@@ -1,0 +1,199 @@
+hr {height: 10px; background-color:black; width: 100%; align-content: center;}
+.panner {
+    align-content: center ; width: 100%; margin-right: 50px;
+}
+    ul li { display:  inline-block; }
+    body { background-color: aliceblue;  align-content: center ;  line-height: 1; margin: 0px auto; width: 1440px; padding:0px auto}
+  html, body {
+  min-height: 100%;
+  }
+  body,  form,  select, textarea, P { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #f9ffff;
+  line-height: 22px;
+  }
+  h1 {
+  position: absolute;
+  margin: 0;
+  line-height: 50px;
+  font-size: 60px;
+  color: #fff;
+  z-index: 2;
+  }
+  .testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+  }
+  form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #041ac3;
+  box-shadow: 0 0 15px 0 #000000; 
+  }
+  .banner {
+  position: relative;
+  height: 260px;
+  background-image: url("/uploads/media/default/0001/02/de5d4fa9c24ed631b1c5d3f3bff8c0d5f3f4f325.png");  
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #dbe1ed;
+  }
+  .banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4); 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+  input, select, textarea {
+  margin-bottom: 10px;
+  border: 1px solid #787070;
+  border-radius: 3px;
+  }
+  input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  }
+  input[type="date"] {
+  padding: 4px 5px;
+  }
+  select {
+  width: 100%;
+  padding: 7px 0;
+  background: transparent;
+  }
+  textarea {
+  width: calc(100% - 12px);
+  padding: 5px;
+  }
+  .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+  color:  #0e0f0f;
+  }
+  .item input:hover, .item select:hover, .item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 0 #3263cd;
+  color: #03339b;
+  }
+  .item {
+  position: relative;
+  margin: 10px 0;
+  }
+  input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+  }
+  .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  font-size: 20px;
+  color: #a9a9a9;
+  }
+  .item i {
+  right: 2%;
+  top: 28px;
+  z-index: 1;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+  right: 1%;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+  }
+  input[type=radio], input[type=checkbox]  {
+  display: none;
+  }
+  label.radio, label.checkbox {
+  position: relative;
+  display: inline-block;
+  margin: 5px 20px 15px 0;
+  cursor: pointer;
+  }
+  .question span {
+  margin-left: 30px;
+  }
+  label.radio:before, label.checkbox:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  }
+  label.checkbox:before{ border-radius: 5px}
+  input[type=radio]:checked + label:before, label.radio:hover:before,
+  input[type=checkbox]:checked + label:before, label.chekbox:hover:before {
+  border: 2px solid #090509;
+  }
+  label.radio:after, label.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 8px;
+  height: 4px;
+  border: 3px solid #dbe1ed;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+  opacity: 0;
+  }
+  input[type=radio]:checked + label:after, input[type=checkbox]:checked + label:after {
+  opacity: 1;
+  }
+  .btn-block {
+  margin-top: 10px;
+  text-align: center;
+  }
+  button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+  background: #9aa2b3;
+  font-size: 16px;
+  color: #0f0a0a;
+  cursor: pointer;
+  }
+  button:hover {
+  background: #5b82d7;
+  }
+  @media (min-width: 568px) {
+  .name-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .name-item input{
+  width: calc(50% - 20px);
+  }
+  }
+  .logo { display: inline-block; margin: 5px; float:left; width:20%; height: 170px; width: 300px; margin-bottom: 45px; }
+  .logo img { margin: 5px; padding: 5px; width:90%; height:200px; }
+  .main-link { float: right; display:inline-block; width: 65%;
+    margin: 15px 10px; padding: 5px;}
+.main-link  ul li {display:inline-block ; width: 10%;height: 100px; margin: 5px; font-size:24px;}
+.h3 {color: aliceblue; }
+.header {margin-bottom: 35px;}
+.contener {float: left;}
+.img-5 {float: righ;width:150;}
+.link {font-size: 20px;}
+.link-2 {float: right;}
+.link-3 {font-size: 30px; float: right; line-height: 50px;}
+.send {font-size: 15px;}
+.footer-form {font-size: 20px; width: 200px;}
+
+
+
+
+
+ 
